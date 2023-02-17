@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/nvm/versions/node/v10.15.3/bin/node',
+1 verbose cli   '/opt/nvm/versions/node/v10/bin/npm-real',
+1 verbose cli   'run',
+1 verbose cli   'development' ]
+2 info using npm@6.4.1
+3 info using node@v10.15.3
+4 verbose config Skipping project config: /app/.npmrc. (matches userconfig)
+5 verbose run-script [ 'predevelopment', 'development', 'postdevelopment' ]
+6 info lifecycle starter-cra-and-react@1.0.0~predevelopment: starter-cra-and-react@1.0.0
+7 info lifecycle starter-cra-and-react@1.0.0~development: starter-cra-and-react@1.0.0
+8 verbose lifecycle starter-cra-and-react@1.0.0~development: unsafe-perm in lifecycle true
+9 verbose lifecycle starter-cra-and-react@1.0.0~development: PATH: /opt/nvm/versions/node/v10.15.3/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/app/node_modules/.bin:/app/bin:/app/.local/bin:/app/node_modules/.bin:/opt/rust/cargo/bin:/opt/swift/usr/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvm/versions/node/v10/bin
+10 verbose lifecycle starter-cra-and-react@1.0.0~development: CWD: /app
+11 silly lifecycle starter-cra-and-react@1.0.0~development: Args: [ '-c',
+11 silly lifecycle   'NODE_ENV=development concurrently --kill-others "npm run client" "npm run server"' ]
+12 info lifecycle starter-cra-and-react@1.0.0~development: Failed to exec development script
+13 verbose stack Error: starter-cra-and-react@1.0.0 development: `NODE_ENV=development concurrently --kill-others "npm run client" "npm run server"`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+13 verbose stack     at ChildProcess.emit (events.js:189:13)
+13 verbose stack     at maybeClose (internal/child_process.js:970:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid starter-cra-and-react@1.0.0
+15 verbose cwd /app
+16 verbose Linux 4.4.0-1107-aws
+17 verbose argv "/opt/nvm/versions/node/v10.15.3/bin/node" "/opt/nvm/versions/node/v10/bin/npm-real" "run" "development"
+18 verbose node v10.15.3
+19 verbose npm  v6.4.1
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error starter-cra-and-react@1.0.0 development: `NODE_ENV=development concurrently --kill-others "npm run client" "npm run server"`
+24 error spawn ENOENT
+25 error Failed at the starter-cra-and-react@1.0.0 development script.
+25 error This is probably not a problem with npm. There is likely additional logging output above.
+26 verbose exit [ 1, true ]
